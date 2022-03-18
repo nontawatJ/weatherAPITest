@@ -1,0 +1,29 @@
+@media screen and (min-width:50px) {
+    .body-container {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        flex-direction: column;
+        background-color: rgb(245, 245, 245);
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .select-box{
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 80%;
+        text-align: center;
+    }
+    .headline{
+        font-weight:bold;
+        font-size: 35px;
+    }
+    .description {
+        font-size: 30px;
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+}
